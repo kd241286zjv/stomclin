@@ -510,6 +510,9 @@ footer .container {
   padding-left: 20px;
   position: relative;
 }
+.footerBlock:nth-child(2) .footerBlock__email {
+  letter-spacing: -1px;
+}
 .footerBlock:nth-child(2) .footerBlock__phone::before {
   content: '';
   position: absolute;
